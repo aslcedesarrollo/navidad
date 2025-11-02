@@ -1,0 +1,90 @@
+import { AppContent } from './types';
+
+export const initialContent: AppContent = {
+  donationUrl: "https://donorbox.org/mi-deseo-de-navidad",
+  campaignName: "Mi Deseo de Navidad 2025",
+  hero: {
+    title: "Mi Deseo de Navidad 2025",
+    subtitle: "Nuestra meta: 300 canastas y 300 regalos para familias, niños y ancianos en La Ceiba, Honduras.",
+    cta: "Dona Antes del 1 de Diciembre",
+    backgroundImage: "https://images.unsplash.com/photo-1608745594918-d72124312b1c?q=80&w=1920&auto=format&fit=crop",
+    countdownTargetDate: "2025-12-01T00:00:00",
+  },
+  mission: {
+    title: "Nuestra Misión para 2025",
+    subtitle: "Este año, buscamos duplicar nuestro impacto. La meta es llevar 300 canastas familiares navideñas a quienes más lo necesitan en La Ceiba.",
+    description: "Cada canasta, con un costo aproximado de <strong>L 1,500 - L 1,800</strong>, se entrega en una paila plástica reutilizable. Además, nuestra meta es llevar juguetes y regalos a <strong>300 niños</strong> en hospitales y al asilo de ancianos. ¡Ayúdanos a lograrlo!",
+    basketTitle: "¿Qué incluye cada canasta?",
+    items: [
+      { name: "Arroz", icon: "fa-solid fa-bowl-rice" },
+      { name: "Frijoles", icon: "fa-solid fa-seedling" },
+      { name: "Azúcar", icon: "fa-solid fa-cube" },
+      { name: "Harina", icon: "fa-solid fa-wheat-awn" },
+      { name: "Aceite", icon: "fa-solid fa-bottle-droplet" },
+      { name: "Mantequilla", icon: "fa-solid fa-stroopwafel" },
+      { name: "Espaguetis", icon: "fa-solid fa-plate-wheat" },
+      { name: "Salsa de Tomate", icon: "fa-solid fa-jar" },
+      { name: "Vegetales Mixtos", icon: "fa-solid fa-carrot" },
+      { name: "Aceitunas", icon: "fa-solid fa-olive" },
+      { name: "Paila Plástica", icon: "fa-solid fa-box-open" },
+      { name: "Regalos", icon: "fa-solid fa-gift" },
+    ],
+  },
+  transparency: {
+    title: "Transparencia y Progreso",
+    subtitle: "Nuestra meta es recaudar los fondos antes del 1 de Diciembre de 2025 para asegurar que todas las canastas y regalos estén listos a tiempo. ¡Cada lempira cuenta!",
+    goal: 600000,
+    raised: 0,
+  },
+  updates: {
+    title: "Noticias y Actividades",
+    subtitle: "Sigue de cerca nuestro progreso y las actividades que realizamos gracias a tu apoyo. ¡Aquí compartimos las últimas noticias de la campaña!",
+    posts: [
+      {
+        id: 1,
+        image: "https://images.unsplash.com/photo-1513297887119-d480a8b43ada?q=80&w=600&auto=format&fit=crop",
+        title: "¡Lanzamos la campaña 2025!",
+        description: "Con gran entusiasmo damos inicio a 'Mi Deseo de Navidad 2025'. Este año nuestra ambiciosa meta es llegar a 300 familias y llevar 300 regalos.",
+        date: "1 de Octubre, 2025",
+      },
+      {
+        id: 2,
+        image: "https://images.unsplash.com/photo-1545299438-16202a5c8689?q=80&w=600&auto=format&fit=crop",
+        title: "Necesitamos tu ayuda para empezar",
+        description: "La campaña ha comenzado, pero el contador está en cero. ¡Sé uno de los primeros en donar y ayúdanos a dar el primer paso hacia nuestra meta!",
+        date: "5 de Octubre, 2025",
+      },
+      {
+        id: 3,
+        image: "https://images.unsplash.com/photo-1574792224179-b4d6a6901815?q=80&w=600&auto=format&fit=crop",
+        title: "Planificando la Ruta de la Alegría",
+        description: "Mientras recibimos las primeras donaciones, nuestro equipo de voluntarios ya está planificando la logística para las entregas en diciembre.",
+        date: "15 de Octubre, 2025",
+      },
+    ],
+  },
+  gallery: {
+    title: "Galería de Sonrisas",
+    subtitle: "Una imagen vale más que mil palabras. Aquí compartimos los momentos de alegría que tu donación hará posible este 2025.",
+    images: [
+      { id: 1, src: "https://images.unsplash.com/photo-1513061975996-c436f5e256b7?q=80&w=800&auto=format&fit=crop", alt: "Voluntarios empacando canastas" },
+      { id: 2, src: "https://images.unsplash.com/photo-1542862544-46385a8b7529?q=80&w=800&auto=format&fit=crop", alt: "Niño feliz recibiendo un regalo" },
+      { id: 3, src: "https://images.unsplash.com/photo-1518152988333-e1893144ac9c?q=80&w=800&auto=format&fit=crop", alt: "Familia agradecida con su canasta" },
+      { id: 4, src: "https://images.unsplash.com/photo-1576359564998-21d1d86d6f27?q=80&w=800&auto=format&fit=crop", alt: "Entrega de juguetes en hospital" },
+      { id: 5, src: "https://images.unsplash.com/photo-1574792224179-b4d6a6901815?q=80&w=800&auto=format&fit=crop", alt: "Ancianos compartiendo en el asilo" },
+      { id: 6, src: "https://images.unsplash.com/photo-1576505705353-3b4e7a7e7a0b?q=80&w=800&auto=format&fit=crop", alt: "Equipo de voluntarios de la campaña" },
+    ],
+  },
+  donate: {
+    title: "Haz tu Donación para 2025",
+    subtitle: "Tu generosidad es crucial para alcanzar nuestra meta. Con tu ayuda, podemos llevar alegría a cientos de personas.",
+    heading: "Dona de Forma Rápida y Segura",
+  },
+  footer: {
+    about: "Una iniciativa ciudadana para llevar esperanza y alegría en Navidad a La Ceiba, Honduras.",
+    facebookUrl: "#",
+    instagramUrl: "#",
+    whatsappUrl: "#",
+    email: "info@mideseodenavidad.hn",
+  },
+};
